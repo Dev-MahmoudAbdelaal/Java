@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Java Applications</title>
 </head>
 <body>
+  <h1>What is Java?</h1>
+    <p>Java is a programming language and a platform. Java is a high level, robust, object-oriented and secure programming language.</p>
+    <hr>
     <h1>Types of Java Applications</h1>
     <ul>
         <li>
