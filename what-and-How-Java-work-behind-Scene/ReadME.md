@@ -27,5 +27,6 @@
             An application which is created for mobile devices is called a mobile application. Currently, Android and Java ME are used for creating mobile applications.
         </li>
     </ul>
+    <h1>Platform: Any hardware or software environment in which a program runs, is known as a platform. Since Java has a runtime environment (JRE) and API, it is called a platform.</h1>
 </body>
 </html>
