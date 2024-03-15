@@ -29,5 +29,25 @@
     </ul>
     <h1>Platform</h1>
     <p> Any hardware or software environment in which a program runs, is known as a platform. Since Java has a runtime environment (JRE) and API, it is called a platform.</p>
+    <hr>
+    <h1>Java Platforms / Editions</h1>
+    <ul>
+        <li>
+            <strong>Java SE (Java Standard Edition):</strong>
+            <p>It is a Java programming platform. It includes Java programming APIs such as java.lang, java.io, java.net, java.util, java.sql, java.math, etc. It covers core topics like OOPs, String, Regex, Exception, Inner classes, Multithreading, I/O Stream, Networking, AWT, Swing, Reflection, Collection, etc.</p>
+        </li>
+        <li>
+            <strong>Java EE (Java Enterprise Edition):</strong>
+            <p>It is an enterprise platform mainly used to develop web and enterprise applications. It is built on top of the Java SE platform. It includes topics like Servlet, JSP, Web Services, EJB, JPA, etc.</p>
+        </li>
+        <li>
+            <strong>Java ME (Java Micro Edition):</strong>
+            <p>It is a micro platform dedicated to mobile applications.</p>
+        </li>
+        <li>
+            <strong>JavaFX:</strong>
+            <p>It is used to develop rich internet applications. It utilizes a lightweight user interface API.</p>
+        </li>
+    </ul>
 </body>
 </html>
