@@ -85,10 +85,25 @@
         JVM. It is saved as .class file by the compiler. To view the bytecode, a disassembler like javap can be used.
     </p>
     <h2>3. Java Development Kit (JDK)</h2>
-    <p>While we were using the term JDK when we learn about bytecode and JVM. So, as the name suggests, it is a complete
-        Java development kit that includes everything including compiler, Java Runtime Environment (JRE), java
-        debuggers, java docs, etc. For the program to execute in java, we need to install JDK on our computer in order
-        to create, compile and run the java program.</p>
+    <p>JDK stands for Java Development Kit. It's a software development kit used by Java developers for building Java applications. The JDK includes a set of tools and libraries that are necessary for developing, debugging, and monitoring Java programs. Here's a brief overview of its components:</p>
+    <h1>JDK Components</h1>
+    <ul>
+        <li>
+            <strong>Java Compiler (javac):</strong> This is the tool used to compile Java source code files (.java) into bytecode files (.class) that can be executed by the Java Virtual Machine (JVM).
+        </li>
+        <li>
+            <strong>Java Runtime Environment (JRE):</strong> The JDK includes a complete JRE, which consists of the JVM, libraries, and other components necessary for running Java applications. This allows developers to both develop and run Java programs using the JDK.
+        </li>
+        <li>
+            <strong>Java Development Tools:</strong> The JDK includes various command-line tools and utilities for developing Java applications, such as javadoc for generating API documentation, jar for creating and managing Java archive (JAR) files, and jdb for debugging Java programs.
+        </li>
+        <li>
+            <strong>Java Standard Libraries:</strong> The JDK provides a rich set of standard libraries (also known as the Java API) that developers can use to build Java applications. These libraries cover a wide range of functionality, including I/O operations, networking, GUI development, and more.
+        </li>
+        <li>
+            <strong>Sample Code and Documentation:</strong> The JDK includes sample code and documentation to help developers get started with Java programming and to understand how to use various features and APIs.
+        </li>
+    </ul>
     <h2>4. Java Runtime Environment (JRE)</h2>
     <p>JDK includes JRE. JRE installation on our computers allows the java program to run, however, we cannot compile
         it. JRE includes a browser, JVM, applet support, and plugins. For running the java program, a computer needs
@@ -99,7 +114,6 @@
         of a programmer easy by handling memory management. However, programmers should be careful about their code
         whether they are using objects that have been used for a long time. Because Garbage cannot recover the memory of
         objects being referenced.</p>
-
     <h2>6. ClassPath</h2>
     <p>The classpath is the file path where the java runtime and Java compiler look for .class files to load. By
         default, JDK provides many libraries. If you want to include external libraries they should be added to the
