@@ -86,7 +86,7 @@
     </p>
     <h2>3. Java Development Kit (JDK)</h2>
     <p>JDK stands for Java Development Kit. It's a software development kit used by Java developers for building Java applications. The JDK includes a set of tools and libraries that are necessary for developing, debugging, and monitoring Java programs. Here's a brief overview of its components:</p>
-    <h1>JDK Components</h1>
+    <h3>JDK Components</h3>
     <ul>
         <li>
             <strong>Java Compiler (javac):</strong> This is the tool used to compile Java source code files (.java) into bytecode files (.class) that can be executed by the Java Virtual Machine (JVM).
