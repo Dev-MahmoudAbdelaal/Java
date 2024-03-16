@@ -49,5 +49,26 @@
             <p>It is used to develop rich internet applications. It utilizes a lightweight user interface API.</p>
         </li>
     </ul>
+    </hr>
+    <h1>what is JDK...?</h1>
+    <pre>JDK stands for Java Development Kit. It's a software development kit used by Java developers for building Java applications. The JDK includes a set of tools and libraries that are necessary for developing, debugging, and monitoring Java programs. Here are some key components of the JDK:</pre>
+     <h1>JDK Components</h1>
+    <ul>
+        <li>
+            <strong>Java Compiler (javac):</strong> This is the tool used to compile Java source code files (.java) into bytecode files (.class) that can be executed by the Java Virtual Machine (JVM).
+        </li>
+        <li>
+            <strong>Java Runtime Environment (JRE):</strong> The JDK includes a complete JRE, which consists of the JVM, libraries, and other components necessary for running Java applications. This allows developers to both develop and run Java programs using the JDK.
+        </li>
+        <li>
+            <strong>Java Development Tools:</strong> The JDK includes various command-line tools and utilities for developing Java applications, such as javadoc for generating API documentation, jar for creating and managing Java archive (JAR) files, and jdb for debugging Java programs.
+        </li>
+        <li>
+            <strong>Java Standard Libraries:</strong> The JDK provides a rich set of standard libraries (also known as the Java API) that developers can use to build Java applications. These libraries cover a wide range of functionality, including I/O operations, networking, GUI development, and more.
+        </li>
+        <li>
+            <strong>Sample Code and Documentation:</strong> The JDK includes sample code and documentation to help developers get started with Java programming and to understand how to use various features and APIs.
+        </li>
+    </ul>
 </body>
 </html>
