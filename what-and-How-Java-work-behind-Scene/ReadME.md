@@ -103,7 +103,7 @@
                         instance of Java virtual machine that allows the Java program to be executed natively on
                         underlying machine.</li>
                     <br>
-                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211019154230/jre.png">
+                    <img style="size: 10%;" src="https://media.geeksforgeeks.org/wp-content/uploads/20211019154230/jre.png">
                 </ul>
         <li>
             <strong>Java Development Tools:</strong> The JDK includes various command-line tools and utilities for
