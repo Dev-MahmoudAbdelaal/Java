@@ -76,7 +76,8 @@
             bytecode files (.class) that can be executed by the Java Virtual Machine (JVM).
         </li>
         <li>
-            <strong>Java Virtual Machine (JVM):</strong>This is generally referred to as JVM. There are three execution phases of a program:
+            <strong>Java Virtual Machine (JVM):</strong>This is generally referred to as JVM. There are three execution
+            phases of a program:
             <ul>
                 <li>Writing a program is done by a java programmer like you and me.</li>
                 <li>The compilation is done by the JAVAC compiler which is a primary Java compiler included in the Java
@@ -90,14 +91,20 @@
             <strong>Java Runtime Environment (JRE):</strong> The JDK includes a complete JRE, which consists of the JVM,
             libraries, and other components necessary for running Java applications. This allows developers to both
             develop and run Java programs using the JDK.
-<strong>Characteristics of JRE</<strong>
-    <ul>
-        <li>ClassLoader: JRE Classloader runtime loads all classes necessary to run a Java program. JRE uses Classloader to automate whenever required. Basically, Java Classes are Loaded into memory.</li>
-        <li>Bytecode Verifier: The Bytecode Verifier checks the format and accuracy of Java Code and after that passes to the Interpreter. In this event, the code avoids the integrity or access rights, That set of the object will not be loaded. It will consider as Corrupted.</li>
-        <li>Interpreter: Successfully loaded bytecode loads, the java interpreter converts java bytecode to (.class file) that is easily understood by an operating System or the java interpreter create an instance of Java virtual machine that allows the Java program to be executed natively on underlying machine.</li>
-        <br>
-        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211019154230/jre.png">
-    </ul>       
+            <strong>Characteristics of JRE</<strong>
+                <ul>
+                    <li>ClassLoader: JRE Classloader runtime loads all classes necessary to run a Java program. JRE uses
+                        Classloader to automate whenever required. Basically, Java Classes are Loaded into memory.</li>
+                    <li>Bytecode Verifier: The Bytecode Verifier checks the format and accuracy of Java Code and after
+                        that passes to the Interpreter. In this event, the code avoids the integrity or access rights,
+                        That set of the object will not be loaded. It will consider as Corrupted.</li>
+                    <li>Interpreter: Successfully loaded bytecode loads, the java interpreter converts java bytecode to
+                        (.class file) that is easily understood by an operating System or the java interpreter create an
+                        instance of Java virtual machine that allows the Java program to be executed natively on
+                        underlying machine.</li>
+                    <br>
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211019154230/jre.png">
+                </ul>
         <li>
             <strong>Java Development Tools:</strong> The JDK includes various command-line tools and utilities for
             developing Java applications, such as javadoc for generating API documentation, jar for creating and
