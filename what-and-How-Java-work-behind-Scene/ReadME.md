@@ -129,8 +129,7 @@
             bytecode files (.class) that can be executed by the Java Virtual Machine (JVM).
         </li>
         <li>
-            <strong>Java Virtual Machine (JVM)(Interpreter)</strong>
-            <p>This is generally referred to as JVM. There are three execution phases of a program:</p>
+            <strong>Java Virtual Machine (JVM)(Interpreter):</strong>This is generally referred to as JVM. There are three execution phases of a program:
             <ul>
                 <li>Writing a program is done by a java programmer like you and me.</li>
                 <li>The compilation is done by the JAVAC compiler which is a primary Java compiler included in the Java
