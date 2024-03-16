@@ -93,7 +93,6 @@
     <p>JDK includes JRE. JRE installation on our computers allows the java program to run, however, we cannot compile
         it. JRE includes a browser, JVM, applet support, and plugins. For running the java program, a computer needs
         JRE.</p>
-
     <h2>5. Garbage Collector</h2>
     <p>In Java, programmers can’t delete the objects. To delete or recollect that memory JVM has a program called
         Garbage Collector. Garbage Collectors can recollect the objects that are not referenced. So Java makes the life
