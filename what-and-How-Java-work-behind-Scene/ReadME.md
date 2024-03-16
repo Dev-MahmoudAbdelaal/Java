@@ -65,7 +65,7 @@
         </li>
     </ul>
     <hr>
-    <h1>Java Terminology</h1>
+    <!-- <h1>Java Terminology</h1>
     <h2>1. Java Virtual Machine (JVM)</h2>
     <p>This is generally referred to as JVM. There are three execution phases of a program:</p>
     <ul>
@@ -117,7 +117,28 @@
     <h2>6. ClassPath</h2>
     <p>The classpath is the file path where the java runtime and Java compiler look for .class files to load. By
         default, JDK provides many libraries. If you want to include external libraries they should be added to the
-        classpath.</p>
+        classpath.</p> -->
+         <h2>Java Development Kit (JDK)</h2>
+    <p>JDK stands for Java Development Kit. It's a software development kit used by Java developers for building Java applications. The JDK includes a set of tools and libraries that are necessary for developing, debugging, and monitoring Java programs. Here's a brief overview of its components:</p>
+    <h3>JDK Components</h3>
+    <ul>
+        <li>
+            <strong>Java Compiler (javac):</strong> This is the tool used to compile Java source code files (.java) into bytecode files (.class) that can be executed by the Java Virtual Machine (JVM).
+        </li>
+        <li>
+            <strong>Java Runtime Environment (JRE):</strong> The JDK includes a complete JRE, which consists of the JVM, libraries, and other components necessary for running Java applications. This allows developers to both develop and run Java programs using the JDK.
+        </li>
+        <li>
+            <strong>Java Development Tools:</strong> The JDK includes various command-line tools and utilities for developing Java applications, such as javadoc for generating API documentation, jar for creating and managing Java archive (JAR) files, and jdb for debugging Java programs.
+        </li>
+        <li>
+            <strong>Java Standard Libraries:</strong> The JDK provides a rich set of standard libraries (also known as the Java API) that developers can use to build Java applications. These libraries cover a wide range of functionality, including I/O operations, networking, GUI development, and more.
+        </li>
+        <li>
+            <strong>Sample Code and Documentation:</strong> The JDK includes sample code and documentation to help developers get started with Java programming and to understand how to use various features and APIs.
+        </li>
+        <image src="http://getkt.com/wp-content/uploads/2019/01/Understand-JDK-JRE-JVM.jpg">
+    </ul>
 </body>
 
 </html>
