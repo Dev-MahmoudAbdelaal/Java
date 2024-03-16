@@ -89,7 +89,6 @@
         Java development kit that includes everything including compiler, Java Runtime Environment (JRE), java
         debuggers, java docs, etc. For the program to execute in java, we need to install JDK on our computer in order
         to create, compile and run the java program.</p>
-
     <h2>4. Java Runtime Environment (JRE)</h2>
     <p>JDK includes JRE. JRE installation on our computers allows the java program to run, however, we cannot compile
         it. JRE includes a browser, JVM, applet support, and plugins. For running the java program, a computer needs
