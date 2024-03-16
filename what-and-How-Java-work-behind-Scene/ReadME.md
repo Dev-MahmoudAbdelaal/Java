@@ -128,7 +128,6 @@
         <li>
             <strong>Java Runtime Environment (JRE):</strong> The JDK includes a complete JRE, which consists of the JVM, libraries, and other components necessary for running Java applications. This allows developers to both develop and run Java programs using the JDK.
         </li>
-        <br>
         <li>
             <strong>Java Development Tools:</strong> The JDK includes various command-line tools and utilities for developing Java applications, such as javadoc for generating API documentation, jar for creating and managing Java archive (JAR) files, and jdb for debugging Java programs.
         </li>
@@ -138,6 +137,7 @@
         <li>
             <strong>Sample Code and Documentation:</strong> The JDK includes sample code and documentation to help developers get started with Java programming and to understand how to use various features and APIs.
         </li>
+        <br>
         <image src="http://getkt.com/wp-content/uploads/2019/01/Understand-JDK-JRE-JVM.jpg">
     </ul>
 </body>
