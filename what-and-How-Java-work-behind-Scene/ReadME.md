@@ -84,7 +84,6 @@
     <p>As discussed, the Javac compiler of JDK compiles the java source code into bytecode so that it can be executed by
         JVM. It is saved as .class file by the compiler. To view the bytecode, a disassembler like javap can be used.
     </p>
-
     <h2>3. Java Development Kit (JDK)</h2>
     <p>While we were using the term JDK when we learn about bytecode and JVM. So, as the name suggests, it is a complete
         Java development kit that includes everything including compiler, Java Runtime Environment (JRE), java
