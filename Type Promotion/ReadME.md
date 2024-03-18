@@ -22,3 +22,33 @@
         <li>Numeric types can be promoted to larger numeric types, and smaller integer types can be promoted to <code>float</code> or <code>double</code>.</li>
     </ul>
     <p>Type promotion is crucial for ensuring compatibility and consistency in Java programs, but it's essential to be aware of potential loss of precision or data truncation that may occur during promotions, especially in narrowing conversions. In such cases, explicit type casting is required to safely convert data between different types.</p>
+<h2>Examples:</h2>
+    <pre>
+public class TypePromotionExamples {
+    public static void main(String[] args) {
+        // Numeric Promotion
+        byte byteValue = 10;
+        int intValue = 20;
+        double doubleValue = byteValue + intValue; // byte is promoted to int, then int is promoted to double
+        System.out.println("Numeric Promotion: " + doubleValue);
+
+        // Assignment Conversion
+        double doubleNumber = 3.14;
+        int intNumber = (int) doubleNumber; // Explicit cast needed for narrowing conversion
+        System.out.println("Assignment Conversion: " + intNumber);
+
+        // Method Invocation
+        double result = calculateArea(5); // int is promoted to double
+        System.out.println("Method Invocation: " + result);
+
+        // Automatic Type Conversion
+        int x = 10;
+        double y = x; // int is automatically promoted to double
+        System.out.println("Automatic Type Conversion: " + y);
+    }
+
+    public static double calculateArea(double radius) {
+        return Math.PI * radius * radius;
+    }
+}
+    </pre>
